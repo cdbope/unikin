@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# Programme d'installation Unkin_Pack-3.0
+# Auteur: Prof Christian Bope & Eric Mboma, Emmanuel Nguahele
+# Date : 22.06.2022
+
 ## IMPORTANT > Ne pas lancer ce script directement, la package d'installation se lance avec le script nommé "Unikin_Pack-3.0"
 
 CHK_REP=$(zenity --entry --title="$BGN_TITLE" --text "$BGN_TEXT" --entry-text="$BGN_DEF" "$BGN_UNCHECKED" "$BGN_CHECKED")
