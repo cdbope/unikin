@@ -1,4 +1,9 @@
-#!/bin/bash
+#!/bin/
+
+Programme d'installation Unkin_Pack-3.0
+# Auteur: Prof Christian Bope & Eric Mboma, Emmanuel Nguahele
+# Date : 22.06.
+
 ## IMPORTANT > Ne pas lancer ce script directement, la post-installation se lance avec le script nommé "Unikin_Pack-3.0.sh"
 
 # Configuration suivant la méthode d'installation (apt install, via un ppa, via un snap, via flatpak, etc...)
