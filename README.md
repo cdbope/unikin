@@ -2,7 +2,7 @@
 # README 
 # Programme d'installation Unikin_Pack-3.0
 # Auteur: Prof Christian Bope & Eric Mboma, Emmanuel Nguahele
-# Date : 21.06.2022
+# Date : 22.06.2022
 
 ## Objectif ##
 
