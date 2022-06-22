@@ -1,5 +1,8 @@
 #!/bin/bash
-#v1.1
+
+# Programme d'installation Unkin_Pack-3.0
+# Auteur: Prof Christian Bope & Eric Mboma, Emmanuel Nguahele
+# Date : 22.06.2022
 
 # Script d'installation pour les packages"Unikin_Pack-3.0"
 
