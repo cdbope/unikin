@@ -1,6 +1,6 @@
 # Unikin_Pack-3.0
 # README 
-# Script LinInstall crée par Unikin_pack
+# Programme d'installation Unikin_Pack-3.0
 # Auteur: Prof Christian Bope & Eric Mboma, Emmanuel Nguahele
 # Date : 21.06.2022
 
