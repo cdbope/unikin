@@ -22,7 +22,7 @@ https://gitlab.com/mbomaerick401/uinstall
 
 ## Compatibilité ##
 
-Le script est destiné principalement à la version de base d'Ubuntu (Gnome) pour la version 20.04LTS sortie en Avril.
+Le script est destiné principalement à la version de base des distributions derivées debian (Gnome).
 Cela ne veux pas dire qu'il ne peut pas être utilisé sur une autre configuration mais qu'il a été testé/validé surtout pour celle-ci.
 
 - Ce script est fait pour "Bash" (shell par défaut sous Ubuntu) mais pas pour les autres Shell donc si vous l'avez modifié manuellement sur votre Ubuntu pour mettre, par exemple, "Zsh" à la place, le script ne fonctionnera pas correctement (certaines fonctions non-compatibles).
@@ -80,4 +80,4 @@ Par conséquent, si vous cochez un logiciel où il est indiqué "{Nécessite int
 
 - (cli) => C'est juste une précision sur le logiciel pour vous indiquer qu'il ne s'utilise qu'en CLI (Command Line Inteface) c'est à dire en ligne de commande (pas d'interface graphique et souvent pas de raccourci dans le menu/dash des applications). À noter que ce n'est pas précisé pour ceux classé dans la catégorie "outil en cli" puisqu'ils sont tous concernés de toute façon dans cette catégorie donc inutile de le remettre à chaque fois).
 
-***Bonne installation ! ;-)***
+***Bonne installation Unikin_Pack-3.0 ! ;-)***
