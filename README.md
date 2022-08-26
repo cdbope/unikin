@@ -1,24 +1,20 @@
-# Unikin_Pack-3.0
-# README 
-# Programme d'installation Unikin_Pack-3.0
-# Auteur: Prof Christian Bope & Eric Mboma, Emmanuel Nguahele
-# Date : 22.06.2022
+## README Unikin_Pack-3.0
+Programme d'installation Unikin_Pack-v1.0
+Eric Mboma, Emmanuel Nguahele , etudiants L2 (Génie-UNIKIN, 2020), Ass. Jacques Mayombo, Ass Senghor et Christian D. Bope
+Date : 22.06.2022
 
 ## Objectif ##
 
-Ce script sert à installer des logiciels sur tous les Distributions derivées du DEBIAN avec un très large choix de paquets.
+Ce package regorge les logiciels important sur tous les Distributions derivées du DEBIAN avec un très large choix de paquets pour les Mathematiciens  et Informaticiens.
+
 Il y a plusieurs avantages :
+
 - Ce large choix de logiciel est accessible directement au sein d'une interface graphique unifiée (via Zenity),
 - Il y a une description de chaque logiciel directement dans l'interface ce qui vous permet de voir au premier coup d'oeil ce qui peux vous intéresser ou non,
 - Simple à utiliser : pour installer les logiciels, il suffit juste de cocher les cases correspondantes,
 - Intègre différentes méthodes d'installations (installation via apt install, installation d'un paquet deb récupéré sur le site de l'éditeur, installation via un PPA ou le dépot de l'éditeur, installation via un Snap, installation avec Flatpak et le dépot Flathub, récupération au format AppImage, installation via un script etc...
 (À noter que pour ceux qui n'aiment pas les paquets universels, sachez qu'aucun n'est coché par défaut et que, quand un logiciel est proposé en paquet universel, c'est explicitement indiqué dans le nom lors du choix).
 
-
-
-Nos liens:
-https://github.com/Eric-mboma/Unikin_Pack-3.0
-https://gitlab.com/mbomaerick401/uinstall
 
 ## Compatibilité ##
 
@@ -37,30 +33,35 @@ Cela ne veux pas dire qu'il ne peut pas être utilisé sur une autre configurati
 
 Il y a 2 méthodes :
 
-- Télécharger le contenu du script (répertoire Unikin_Pack-3.0) sur ce github (soit par l'interface web soit via la commande wget), décompresser le contenu, penser à mettre le droit d'execution sur le script et lancer le "Unikin_Pack-3.0" à l'intérieur SANS sudo (les sudo se trouvent à l'intérieur du script). En ligne de commande, cela donne donc :
+- Premiere methode: Télécharger le contenu du script (répertoire Unikin_Pack-v1.0) sur ce github (soit par l'interface web soit via la commande wget), décompresser le contenu, penser à mettre le droit d'execution sur le script et lancer le "Unikin_Pack-v1.0" à l'intérieur SANS sudo (les sudo se trouvent à l'intérieur du script). En ligne de commande, cela donne donc :
 
-> wget https://github.com/Eric-mboma/Unikin_Package &&
-> unzip master.zip && 
-> cd Unikin_Pack-3.0/ && chmod +x Unikin_Pack-3.0.sh &&
-> ./Unikin_Pack-3.0.sh
+> wget https://github.com/cdbope/unikin.git &&
+> unzip unikin.zip && 
+> cd Unikin_Pack-v1.0/ && chmod +x Unikin_Pack-v1.0.sh &&
+> ./Unikin_Pack-v1.0.sh
 
-- 2ème solution : faire avec git clone (avec l'avantage de pouvoir faire la maj du script sans le retélécharger manuellement). Il vous faudra en pré-requis avoir installé git (sudo apt install git).
+- Deuxieme methode: utiliser git clone (avec l'avantage de pouvoir faire la mise a jour du script sans le retélécharger manuellement). Il vous faudra en pré-requis avoir installé git (sudo apt install git).
 
-> git clone https://github.com/Eric-mboma/Unikin_Pack-3.0.git && cd Unikin_Pack-3.0/ &&
-> ./Unikin_Pack-3.0.sh
+> installer git (sudo apt install git) 
+> git clone https://github.com/cdbope/unikin.git && cd Unikin_Pack-v1.0/ 
+> chmod +x Unikin_Pack-v1.0.sh (droit d'excution du fichier shell)
+> ./Unikin_Pack-v1.0.sh
 
-Avec cette 2ème solution, si vous voulez réutiliser le script plus tard et vérifier si il y a pas eu une nouvelle maj du script entre temps, dans le dossier du script, il suffira de faire :
+Avec la deuxieme methode, si vous voulez réutiliser le script plus tard et vérifier si il y a pas eu une nouvelle mise a jour du script entre temps, dans le dossier du script, il suffira de faire :
 > git pull
 
-## Pré-requis (automatique)
 
-Pour fonctionner correctement, le script a besoin des logiciels suivants ; cependant, de votre coté vous n'avez rien à faire puisqu'ils seront automatiquement installés :
+## Note pour le developpeur
+
+Logiciel utilise pour creation du package 
+
+- Pour fonctionner correctement, le script a besoin des logiciels suivants: 
 
 - Zenity (permet l'affichage de la fenêtre graphique)
 - Notify-send (permet l'affichage de notifications)
 - Curl (utilisé par plusieurs logiciels proposés)
 
-## Précisions concernant les balises du type {PPA}, {SNAP}, {FLATPAK} etc...
+- Précisions concernant les balises du type {PPA}, {SNAP}, {FLATPAK} etc...
 
 Les logiciels proposés ne s'installent pas tous de la même manière car les éditeurs ne proposent parfois qu'un seul type d'installation. Cependant certains d'entre-vous peuvent ne pas vouloir par exemple de Snap ou de Flatpak ou de PPA, si c'est le cas, pas de problème, pour ce type d'installation c'est indiqué explicitement a coté du logiciel par une balise { }. Par exemple, si vous ne voulez aucun paquet Flatpak installé, il suffira de vous assurer de ne pas cocher de cases avec {FLATPAK}.
 
@@ -80,4 +81,7 @@ Par conséquent, si vous cochez un logiciel où il est indiqué "{Nécessite int
 
 - (cli) => C'est juste une précision sur le logiciel pour vous indiquer qu'il ne s'utilise qu'en CLI (Command Line Inteface) c'est à dire en ligne de commande (pas d'interface graphique et souvent pas de raccourci dans le menu/dash des applications). À noter que ce n'est pas précisé pour ceux classé dans la catégorie "outil en cli" puisqu'ils sont tous concernés de toute façon dans cette catégorie donc inutile de le remettre à chaque fois).
 
-***Bonne installation Unikin_Pack-3.0 ! ;-)***
+***Bonne installation Unikin_Pack-v1.0 ! ;-)***
+
+Package mis a jours et maintenu par BopeLab
+Contact: christia.bope@unikin.ac.cd et mbomaerick401@gmail.com
