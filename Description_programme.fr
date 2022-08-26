@@ -1489,4 +1489,6 @@ MSG_END_TEXT="L'installation est maintenant terminée ! !
 
 Merci de redémarrer votre PC pour prendre en compte tous les changements.
 
-N'hésitez pas à nous faire un follow directement sur le github et gitlab"
+Package mis a jours et maintenu par BopeLab
+
+Contact: christia.bope@unikin.ac.cd et mbomaerick401@gmail.com
