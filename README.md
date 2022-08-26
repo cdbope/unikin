@@ -84,4 +84,5 @@ Par conséquent, si vous cochez un logiciel où il est indiqué "{Nécessite int
 ***Bonne installation Unikin_Pack-v1.0 ! ;-)***
 
 Package mis a jours et maintenu par BopeLab
+
 Contact: christia.bope@unikin.ac.cd et mbomaerick401@gmail.com
