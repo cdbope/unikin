@@ -1,7 +1,7 @@
 #!/bin/
 
-# Programme d'installation Unkin_Pack-3.0
-# Auteur: Prof Christian Bope & Eric Mboma, Emmanuel Nguahele
+# Programme d'installation Unkin_Pack-v1.0
+# Auteur: Eric Mboma, Emmanuel Nguahele , etudiants L2 (Génie-UNIKIN, 2020), Ass. Jacques Mayombo, Ass Senghor et Christian D. Bope
 # Date : 22.06.2022
 
 ## IMPORTANT > Ne pas lancer ce script directement, la post-installation se lance avec le script nommé "Unikin_Pack-3.0.sh"
