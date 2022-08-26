@@ -1,4 +1,4 @@
-## README Unikin_Pack-3.0
+## README Unikin_Pack-v1.0
 Programme d'installation Unikin_Pack-v1.0
 
 Eric Mboma, Emmanuel Nguahele , etudiants L2 (Génie-UNIKIN, 2020), Ass. Jacques Mayombo, Ass Senghor et Christian D. Bope
