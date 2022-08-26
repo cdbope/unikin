@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Programme d'installation Unkin_Pack-3.0
+# Programme d'installation Unkin_Pack-v1.0
 # Auteur: Prof Christian Bope & Eric Mboma, Emmanuel Nguahele
 # Date : 22.06.2022
 
-# Script d'installation pour les packages"Unikin_Pack-3.0"
+# Script d'installation pour les packages"Unikin_Pack-v1.0"
 
 # Code couleur
 rouge='\e[1;31m'
