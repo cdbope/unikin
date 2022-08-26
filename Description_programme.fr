@@ -1,7 +1,7 @@
 # Description (FR) pour l'installation des logiciels
 # French
 
-PIS_NAME="Unikin_Pack-3.0"
+PIS_NAME="Unikin_Pack-v1.0"
 
 #Begin values : première boite de dialogue
 BGN_TITLE="Configuration de ${PIS_NAME}"
